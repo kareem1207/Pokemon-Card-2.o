@@ -1,0 +1,14 @@
+.color-picker-container {
+    position: relative;
+    display: inline-block;
+}
+
+.color-picker-popup {
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    z-index: 100; 
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+}

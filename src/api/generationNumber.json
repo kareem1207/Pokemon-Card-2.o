@@ -1,0 +1,39 @@
+{
+    "generation 1":{
+        "start" : 1,
+        "end" : 151
+    },
+        "generation 2":{
+        "start" : 152,
+        "end" : 251
+    },
+        "generation 3":{
+        "start": 252,
+        "end" : 386
+    },
+        "generation 4":{
+        "start" : 387,
+        "end" : 493
+    },
+        "generation 5":{
+        "start" : 494,
+        "end" : 649
+    },
+        "generation 6":{
+        "start" : 650,
+        "end" : 721
+    },
+        "generation 7":{
+        "start" : 722,
+        "end" : 809
+    },
+        "generation 8":{
+        "start" : 810,
+        "end" : 905
+    },
+        "generation 9":{
+            "start" : 906,
+            "end" : 100000
+        }
+
+}

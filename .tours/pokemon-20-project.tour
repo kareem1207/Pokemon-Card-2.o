@@ -1,0 +1,76 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pokemon 2.0 Project",
+  "steps": [
+    {
+      "file": "src/App.jsx",
+      "description": "Creating routes for everything here \r\n",
+      "line": 10
+    },
+    {
+      "file": "src/components/layout/AppLayout.jsx",
+      "description": "Here creating a common layout for every page \r\n",
+      "line": 5
+    },
+    {
+      "file": "src/components/layout/Header.jsx",
+      "description": "This is Header Page here all header page components are there \r\n",
+      "line": 9
+    },
+    {
+      "file": "src/components/layout/Footer.jsx",
+      "description": "This is Footer page , here crediting myself \r\n",
+      "line": 1
+    },
+    {
+      "file": "src/pages/MainPage.jsx",
+      "description": "This is Main Page of my website here i can see cards of all pokemon based on type of scrolling \r\n",
+      "line": 4
+    },
+    {
+      "file": "src/components/ui/InfiniteScroll.jsx",
+      "description": "This logic helps for insta infinite scroll until all data is fetched \r\n",
+      "line": 1
+    },
+    {
+      "file": "src/components/ui/Pagination.jsx",
+      "description": "This is Pagination type of scrolling\r\n",
+      "line": 2
+    },
+    {
+      "file": "src/api/FetchingPokeData.jsx",
+      "description": "Here all the data is beign fetched , sorted , displayed based on type etc..",
+      "line": 4
+    },
+    {
+      "file": "src/pages/IndividualPage.jsx",
+      "description": "This is the page where the user will see info abt a single pokemon\r\n",
+      "line": 4
+    },
+    {
+      "file": "src/contexts/ColorContext.jsx",
+      "description": "This is a context used for color changing like background color etc..\r\n",
+      "line": 5
+    },
+    {
+      "file": "src/components/ui/ColorChanger.jsx",
+      "description": "This is the functionality of changing color\r\n",
+      "line": 7
+    },
+    {
+      "file": "src/components/ui/PokeCards.jsx",
+      "description": "This will load each and every card in the page",
+      "line": 5
+    },
+    {
+      "file": "src/pages/GamePAge.jsx",
+      "description": "This is the game page where you can play game and all that \r\n",
+      "line": 4
+    },
+    {
+      "file": "src/components/ui/Game.jsx",
+      "description": "This is the destination of project and here i can control all the game ",
+      "line": 5
+    }
+  ]
+}

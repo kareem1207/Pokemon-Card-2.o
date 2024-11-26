@@ -1,0 +1,115 @@
+.game-page {
+    padding: 2rem;
+}
+
+.selection-screen {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.pokemon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #f5f5f5;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pokemon-card.selected {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+}
+
+.pokemon-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.pokemon-card p {
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.difficulty-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.difficulty-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.difficulty-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.difficulty-btn.selected {
+    background-color: #2E7D32;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.start-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.start-btn, .reset-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.start-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.start-btn:hover {
+    background-color: #1976D2;
+}
+
+.reset-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset-btn:hover {
+    background-color: #d32f2f;
+}
+
+.start-link {
+    text-decoration: none;
+}

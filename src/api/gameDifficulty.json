@@ -1,0 +1,20 @@
+{
+    "easy":{
+        "pp":15,
+        "points":5,
+        "lost-points":0,
+        "hpMultiplier":1
+    },
+    "medium":{
+        "pp":10,
+        "points":10,
+        "lost-points":5,
+        "hpMultiplier":1.5
+    },
+    "hard":{
+        "pp":5,
+        "points":15,
+        "lost-points":10,
+        "hpMultiplier":5
+    }
+}
